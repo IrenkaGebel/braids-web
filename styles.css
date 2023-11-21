@@ -85,7 +85,6 @@ a {
 
     }
   
-
 a.active-link {
 text-decoration: underline;
 }
@@ -97,7 +96,7 @@ text-decoration: underline;
         color: #C1B8B3;
         font-size: 44px;
         margin: 0;
-        padding-top: 1.8em;
+        padding-top: 0.8em;
         padding-left: 0.3em;
         line-break: 50px;
     }
@@ -120,7 +119,7 @@ div.updates{
 }
 
 .updates-content  {
-    height: 650px;
+    height: 780px;
     position: relative;
     max-height: 100%;
     overflow: auto;
@@ -237,6 +236,7 @@ div.colophon {
             top: 10vh;
             right: calc(500px + 10vw)
             }
+
 }
 
 /* Mobile and tablet, between 320px and 768px  */
@@ -251,7 +251,7 @@ div.colophon {
         color: #C1B8B3;
         line-height: 120%;
         margin-top:10px;
-        margin-right: 2em;
+        
     }
     h1, h1.small {
         font-size:20px;
@@ -263,15 +263,16 @@ div.colophon {
         right: 0;
         max-width: 70%;
         z-index:4;
+        scale: 70%;
     }
    
     .arrow {
         font-size: 6.2em;
-        max-height: 100vh;
-        right:1em;
-        padding: 30px;
+        max-height: 10vh;
+       
+        
         }
-    div.about, div.updates, div.colophon, div.contact, .projects-container, .info-container  {
+    div.about, div.updates, div.colophon, div.contact, .projects-container, .info-container {
         margin-left: 1em;
         position: relative;
     }
@@ -289,20 +290,27 @@ div.colophon {
     .go-right {
         display:none;
     }
-    a, 
-    a:visited {
+    a.link-mobile, 
+    a.link-mobile:visited {
         color: #C1B8B3;
       }
 
-      a:focus {
+      a.link-mobile:focus {
         color: #EBE7E7;
       }
-      a:hover,
-      a:active
+      a.link-mobile:hover,
+      a.link-mobile:active
        {
         color: #4B4B4B;;
       }
-    
+     .contact-style {
+        font-size:20px;
+        line-height: 100%;
+     }
+     .mobile-small{
+        font-size:20px;
+     }
+
 }
     
 
